@@ -1,0 +1,574 @@
+@import url('https://fonts.googleapis.com/css?family=Krona+One');
+body{
+    
+}
+.longboardpage1 {
+    display: flex;
+    opacity: 0.7;
+    margin: 20px;
+    font-size: 10px;
+  
+}
+img {
+    width: 150px;
+    height: 500px;
+}
+button {
+    display: flex;
+    justify-content: center;
+    padding: 10px 10px;
+    background-color:transparent;
+    font-family: 'Krona One', sans-serif;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    opacity: 1;
+    border: none;
+    margin: 0 0 0 -15px;
+}
+button:hover{
+    color: lightblue;
+}
+.product1 {
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    justify-content: space-around;
+    color: rgb(255, 255, 255);
+    font-family: 'Krona One', sans-serif;
+    
+}
+.product2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: rgb(255, 255, 255);
+    font-family: 'Krona One', sans-serif;
+}
+.product3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: rgb(255, 255, 255);
+    font-family: 'Krona One', sans-serif;
+}
+.product4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: rgb(255, 255, 255);
+    font-family: 'Krona One', sans-serif;
+}
+.productimg{
+    margin: 0 0 0 27px;
+}
+.productname{
+    text-align: center;
+    margin: 0;
+}
+.productprice{
+    text-align: center;
+    margin: 10px 0 0 0;
+}
+.longboardpage2 {
+    display: flex;
+    flex-direction: row-reverse;
+    opacity: 0.7;
+    margin: 0 0 0 0;
+    font-size: 10px;
+  }
+  .product5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: rgb(255, 255, 255);
+    font-family: 'Krona One', sans-serif;
+}
+.product6 {
+    display: flex;
+    flex-direction: column;
+    width: 230px;
+    margin: 0 0 0 0px;
+    justify-content: space-around;
+    color: rgb(255, 255, 255);
+    font-family: 'Krona One', sans-serif;
+}
+.product7 {
+    display: flex;
+    flex-direction: column;
+    width: 230px;
+    margin: 0 0 0 0px;
+    justify-content: space-around;
+    color: rgb(255, 255, 255);
+    font-family: 'Krona One', sans-serif;
+}
+.product8 {
+    display: flex;
+    flex-direction: column;
+    width: 230px;
+    margin: 0 0 0 0px;
+    justify-content: space-around;
+    color: rgb(255, 255, 255);
+    font-family: 'Krona One', sans-serif;
+}
+.productname2{
+    text-align: center;
+    margin: 0 0 0 80px;
+}
+.productimg2{
+    margin: 0 0 0 89px;
+}
+.productprice2{
+    margin: 10px 0 0 130px;
+}
+.onebutton{
+    margin: 0 0 0 71px;
+}
+@media (max-width: 1980px) {
+    .product1{
+         margin: 0 0 0 1600px;
+         width: 175px;
+     }
+     .product2{
+         margin: 0 0 0 50px;
+         width: 175px;
+     }
+     .product3{
+         margin: 0 0 0 50px;
+         width: 175px; 
+     }
+     .product4{
+         margin: 0 0 0 50px;
+         width: 175px;  
+     }
+     .productname{
+         margin: 10px 0 0 20px;
+     }
+     .productprice{
+         margin: 10px 0 0 20px;
+     }
+     .twobutton{
+         margin: 0 0 0 20px;
+     }
+     .productprice2{
+         margin: 10px 0 0 140px;
+
+     }
+     .productname2{
+         margin: 10px 0 0 90px;
+     }
+     .onebutton{
+         margin: 0 0 0 90px;
+     }
+} 
+@media (max-width: 1880px) {
+    .product1{
+         margin: 0 0 0 1450px;
+         width: 175px;
+     }
+     .product2{
+         margin: 0 0 0 50px;
+         width: 175px;
+     }
+     .product3{
+         margin: 0 0 0 50px;
+         width: 175px; 
+     }
+     .product4{
+         margin: 0 0 0 50px;
+         width: 175px;  
+     }
+} 
+@media (max-width: 1720px) {
+    .product1{
+         margin: 0 0 0 1320px;
+         width: 175px;
+     }
+     .product2{
+         margin: 0 0 0 50px;
+         width: 175px;
+     }
+     .product3{
+         margin: 0 0 0 50px;
+         width: 175px; 
+     }
+     .product4{
+         margin: 0 0 0 50px;
+         width: 175px;  
+     }
+} 
+@media (max-width: 1600px) {
+    .product1{
+         margin: 0 0 0 1220px;
+         width: 175px;
+     }
+     .product2{
+         margin: 0 0 0 50px;
+         width: 175px;
+     }
+     .product3{
+         margin: 0 0 0 50px;
+         width: 175px; 
+     }
+     .product4{
+         margin: 0 0 0 50px;
+         width: 175px;  
+     }
+} 
+@media (max-width: 1440px) {
+    .product1{
+         margin: 0 0 0 1200px;
+         width: 175px;
+     }
+     .product2{
+         margin: 0 0 0 50px;
+         width: 175px;
+     }
+     .product3{
+         margin: 0 0 0 50px;
+         width: 175px; 
+     }
+     .product4{
+         margin: 0 0 0 50px;
+         width: 175px;  
+     }
+} 
+@media (max-width: 1360px) {
+   .product1{
+        margin: 0 0 0 975px;
+        width: 175px;
+       
+    
+    }
+    .product2{
+        margin: 0 0 0 50px;
+        width: 175px;
+    
+    }
+    .product3{
+        margin: 0 0 0 50px;
+        width: 175px;
+    
+    }
+    .product4{
+        margin: 0 0 0 50px;
+        width: 175px;
+    
+    } 
+}
+@media (max-width: 1024px) {
+    body{
+        background-size: cover;
+    }
+    button{
+        font-size: 16px;
+        margin: 0 0 0 10px;
+    }
+    .longboardpage1{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        margin: 30px 0 0 400px;
+      
+      
+    }
+    .longboardpage2{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin: -2462px 0 0 80px;
+      
+    }
+    .product1{
+        margin: 0 0 0 625px;
+        width: 250px;
+        font-size: 16px;
+    
+    }
+    .product2{
+        margin: 0 0 0 625px;
+        width: 250px;
+        font-size: 16px;
+    }
+    .product3{
+        margin: 0 0 0 625px;
+        width: 250px;
+        font-size: 16px;
+    }
+    .product4{
+        margin: 0 0 0 625px;
+        width: 255px;
+        font-size: 16px;
+    }
+    .product5{
+        margin: 0 0 0 475px;
+        width: 300px;
+        font-size: 16px;
+    
+    }
+    .product6{
+        margin: 0 0 0 475px;
+        width: 300px;
+        font-size: 16px;
+    }
+    .product7{
+        margin: 0 0 0 475px;
+        width: 300px;
+        font-size: 16px;
+    }
+    .product8{
+        margin: 0 0 0 475px;
+        width: 300px;
+        font-size: 16px;
+    }
+    .productname2{
+        margin: 10px 0 0 80px;
+    }
+    .productprice2{
+        margin: 10px 0 0 157px;
+    }
+    .onebutton{
+        margin: 0 0 0 80px
+    }
+    .productimg{
+        width: 20vw;
+    }
+    .productimg2{
+        width: 20vw;
+    }
+}
+@media (max-width: 1000px) {
+    .longboardpage1{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        margin: 30px 0 0 70px;
+      
+      
+    }
+    .longboardpage2{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        margin: 0 0 0 -110px;
+    }
+    .product1{
+        margin: 0 0 0 600px;
+        width: 175px;
+       
+    
+    }
+    .product2{
+        margin: 0 0 0 600px;
+        width: 175px;
+    
+    }
+    .product3{
+        margin: 0 0 0 600px;
+        width: 175px;
+    
+    }
+    .product4{
+        margin: 0 0 0 600px;
+        width: 175px;
+    
+    }
+    .productname{
+        margin: 10px 0 0 -50px;
+    }
+    .productprice{
+        margin: 10px 0 0 -50px;
+    }
+    .productimg{
+        width: 20vw;
+        margin: 0 0 0 -20px;
+    }
+    .productimg2{
+        width: 20vw;
+    }
+    .twobutton{
+        margin: 0 0 0 -50px;
+    }
+    .productname2{
+        margin: 0 0 0 30px;
+    }
+    .productprice2{
+        margin: 0 0 0 130px;
+    }
+    .onebutton{
+        margin: 0 0 0 30px;
+    }
+}
+@media (max-width: 768px) {
+    .longboardpage{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        margin: 40px 0 0 -10px;
+      
+    }
+    .product1{
+        margin: 0 0 0 400px;
+        width: 175px;
+       
+    
+    }
+    .product2{
+        margin: 0 0 0 400px;
+        width: 175px;
+    
+    }
+    .product3{
+        margin: 0 0 0 400px;
+        width: 175px;
+    
+    }
+    .product4{
+        margin: 0 0 0 400px;
+        width: 175px;
+    
+    }
+}
+@media (max-width: 560px) {
+    .longboardpage{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end
+      
+    }
+    .product1{
+        margin: 0 0 0 375px;
+        width: 175px;
+       
+    
+    }
+    .product2{
+        margin: 0 0 0 375px;
+        width: 175px;
+    
+    }
+    .product3{
+        margin: 0 0 0 375px;
+        width: 175px;
+    
+    }
+    .product4{
+        margin: 0 0 0 375px;
+        width: 175px;
+    
+    }
+}
+@media (max-width: 414px) {
+    .longboardpage1{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        margin: 30px 0 0 150px;
+      }
+    .longboardpage2{
+        display: flex;
+        flex-direction: column;
+        margin: 0 0 0 -400px;
+    }
+    .product1{
+        margin: 0 0 0 30px;
+        width: 175px;
+       
+    
+    }
+    .product2{
+        margin: 0 0 0 30px;
+        width: 175px;
+    
+    }
+    .product3{
+        margin: 0 0 0 30px;
+        width: 175px;
+    
+    }
+    .product4{
+        margin: 0 0 0 30px;
+        width: 175px;
+    
+    }
+    .productname{
+        margin: 10px 0 0 -120px;;
+    }
+    .productprice{
+        margin: 10px 0 0 -130px;
+    }
+    .twobutton{
+        margin: 0 0 0 -140px;
+    }
+    .productname2{
+        margin: 10px 0 0 -30px;
+    }
+    .productprice2{
+        margin: 10px 0 0 100px;
+    }
+    .onebutton{
+        margin: 0 0 0 -40px;
+    }
+    .productimg{
+        width: 150px;
+        margin: 0 0 0 -50px;
+    }
+    .productimg2{
+        width: 150px;
+        margin: 0 0 0 57px;
+    }
+}
+@media (max-width: 375px) {
+    .longboardpage1{
+        display: flex;
+        flex-direction: column;
+        margin: 10px 0 0 160px;
+    }
+    .longboardpage2{
+        display: flex;
+        flex-direction: column;
+        margin: 0 0 0 -440px
+    }
+    .product1{
+        margin: 0 0 0 -15px;
+        width: 175px;
+       
+    }
+    .product2{
+        margin: 0 0 0 -15px;
+        width: 175px;
+    
+    }
+    .product3{
+        margin: 0 0 0 -15px;
+        width: 175px;
+    
+    }
+    .product4{
+        margin: 0 0 0 -15px;
+        width: 175px;
+    
+    }
+    .productname{
+        margin: 10px 0 0 -130px;
+    }
+    .productprice{
+        margin: 10px 0 0 -140px;
+    }
+}
+@media (max-width: 320px) {
+    .longboardpage1{
+        margin: 10px 0 0 110px;
+
+    }
+    .longboardpage2{
+        margin: 0 0 0 -485px;
+    }
+    .productname{
+        width: 300px;
+    }
+    .productname2{
+        width: 300px;
+    }
+}

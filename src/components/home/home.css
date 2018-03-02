@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css?family=Krona+One');
+body{
+    background-size: 100vw 100vh;
+}
+.longboard {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px 50px 150px;
+    width: 100px;
+}
+.longboardbutton {
+    background-color: transparent;
+    color:  rgb(0, 0, 0);
+    font-size: 50px;
+    font-family: 'Krona One', sans-serif;
+    border: 2px solid  rgb(0, 0, 0);
+    border-radius: 8px;
+    opacity: 0.5;
+    transition: 0.3s;
+    cursor: pointer;
+     
+}
+button:hover {
+    opacity: 1
+}
+button:focus {
+    outline:0;
+}
+.logoContainer1 {
+    display: flex;
+    margin: 0 0 0 230px;
+}
+.logoContainer2{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 0 110px;
+}
+.logo1 {
+    height: 150px;
+    width: 325px;
+    margin: 5px;
+    filter: opacity(60%);
+  }
+  .logo2 {
+    display: grid;
+    height: 150px;
+    width: 325px;
+    margin: 5px;
+    filter: opacity(80%);
+  }
+  .logo3 {
+    display: grid;
+    height: 170px;
+    width: 300px;
+    margin: 5px 20px 0 0;
+    filter: opacity(90%);
+    filter: brightness(700%);
+  }
+  .logo4 {
+    display: grid;
+    height: 175px;
+    width: 275px;
+    margin: 5px;
+    filter: opacity(80%);
+  }
+  .photoContainer{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      margin: 0 0 0 -60px;
+  }
+    .photo {
+      height: 40vh;
+      width: 40vw;
+      margin: 0 0 0 80px;
+      opacity: 0.5;
+  }
+  .statement {
+    width: 40vw;
+    height: 40vh;
+    font-family: 'Krona One', sans-serif;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.466);
+    color: rgb(255, 255, 255);
+    opacity: 0.5; 
+  }
+  .invisible {
+      color: transparent;
+  }
+  @media (max-width: 1024px) { /*ipad pro */
+     .logoContainer1{
+          display: flex;
+          width: 150px;
+          flex-direction: column;
+          margin: 0 0 0 365px;
+      }
+      .logoContainer2{
+        display: flex;
+        width: 150px;
+        flex-direction: column;
+        margin: 0 0 0 375px;
+      }
+      .photoContainer{
+          display: flex;
+          flex-direction: column;
+          margin: 20px 0 0 240px;
+      }
+      .photo {
+          height: 30vh;
+          width: 40vw;
+      }
+      .statement{
+          margin: 10px 0 0 80px;
+      }
+  }  
+  @media (max-width: 768px) {       /*ipad*/
+    .logoContainer1{
+        display: flex;
+        width: 150px;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 0 0 285px;
+      }
+      .logoContainer2{
+        display: flex;
+        width: 150px;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 0 0 290px;
+      }
+      .photoContainer{
+          margin: 0 0 0 170px;
+      }
+    .logo1{
+        height: 110px;
+        width: 200px;
+    }
+    .logo2{
+        height: 110px;
+        width: 200px;
+    }
+    .logo3{
+        height: 110px;
+        width: 200px;
+    }
+    .logo4{
+        height: 110px;
+        width: 200px;
+    }
+  }
+@media (max-width: 560px) {
+    .logoContainer1{
+        display: flex;
+        width: 150px;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 0 0 180px;
+    }
+    .logoContainer2{
+        display: flex;
+        width: 150px;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 0 0 185px;
+    }
+    .photoContainer{
+        margin: 0 0 0 60px;
+    }
+    .photo{
+        width: 60vw;
+        margin: 0 0 0 35px;
+    }
+    .statement{
+        font-size: 8px;
+        margin: 0 0 0 75px;
+    }
+}
+@media (max-width: 414px) {
+    .logoContainer1{
+        display: flex;
+        width: 150px;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 0 0 105px;
+    }
+    .logoContainer2{
+        display: flex;
+        width: 150px;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 0 0 110px;
+    }
+    .photoContainer{
+        margin: 0 0 0 45px;
+    }
+}
+@media (max-width: 375px) {
+    .logoContainer1{
+        display: flex;
+        width: 150px;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 0 0 85px;
+    }
+    .logoContainer2{
+        display: flex;
+        width: 150px;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 0 0 90px;
+    }
+    .photoContainer{
+        margin: 0 0 0 40px;
+    }
+}
+@media (max-width: 320px) {
+    .logoContainer1{
+        margin: 0 0 0 60px;
+    }
+    .logoContainer2{
+        margin: 0 0 0 70px;
+    }
+    .photoContainer{
+        margin: 0 0 0 40px;
+    }
+    .statement{
+        margin: 0 0 0 67px;
+    }
+}

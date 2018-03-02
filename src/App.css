@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css?family=Krona+One');
+body{
+  background-image: url('./background.jpg');
+  background-size: auto;
+}
+.App {
+  display: flex;
+  color: rgb(255, 255, 255);
+  flex-direction: column;
+}
+.navBar {
+  display: flex;
+  flex-direction: row-reverse; 
+  justify-content: space-between;
+  height: 0
+  
+}
+.logoholder{
+  position: relative;
+  opacity: 0.2;
+  height: 10px;
+  border-bottom: 2px solid white;
+  height: 47px;
+}
+.logo{
+  height:10vh;
+  width: auto;
+  filter: grayscale(100%)
+}
+.myaccount{
+  float: right;
+  font-family: 'Krona One', sans-serif;
+  border: none;
+  height: 30px;
+  width: 95px;
+  background-color: transparent;
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+  cursor: pointer;
+  opacity: 0.5;
+  }
+.logout {
+  float: right;
+  font-family: 'Krona One', sans-serif;
+  border: none;
+  height: 30px;
+  width: 100px;
+  background-color: transparent;
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+  cursor: pointer;
+  opacity: 0.5;
+}
+.cart {
+  float: right;
+  font-family: 'Krona One', sans-serif; 
+  border: none;
+  height: 30px;
+  width: 60px;
+  background-color: transparent;
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+  cursor: pointer;
+  opacity: 0.5;
+}
+.longboards{
+  float: right;
+  font-family: 'Krona One', sans-serif;
+  border: none;
+  height: 30px;
+  width: 90px;
+  background-color: transparent;
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+  cursor: pointer;
+  opacity: 0.5;
+}
+.home{
+  float: right;
+  font-family: 'Krona One', sans-serif;
+  border: none;
+  height: 30px;
+  width: 90px;
+  background-color: transparent;
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+  cursor: pointer;
+  opacity: 0.5;
+}
+@media (max-width: 1024px){     /* ipad pro */
+  body{
+    background-size: cover;
+  }
+  .logoholder{
+    height: 67px;
+  }
+  .navBar{
+    display: flex;
+    flex-direction: row-reverse;;
+    justify-content: center;
+  }
+  .cart{
+    font-size: 20px;
+    width: 75px;
+  }
+  .myaccount{
+    font-size: 20px;
+    width: 130px;
+  }
+  .longboards{
+    font-size: 20px;
+    width: 110px;
+  }
+  .logout{
+    font-size: 20px;
+    width: 110px;
+  }
+  .home{
+      font-size: 20px;
+      width: 110px;
+  }
+}
+@media (max-width: 768px){
+  .logoholder{
+    height: 50px;
+  }
+}
+@media (max-width: 500px){
+  body{
+    background: black;
+  }
+  .logoholder{
+    height: 35px;
+  }
+  .navBar{
+    display: flex;
+    flex-direction: row-reverses;
+    width: 100vw;
+    justify-content: center;
+    margin: 10px 0 0 0;
+  }
+  .cart{
+    font-size: 8px;
+    float: left;
+    width: 50px;
+  }
+  .myaccount{
+    font-size: 8px;
+    float: left;
+    width: 60px;
+  }
+  .longboards{
+    font-size: 8px;
+    float: left;
+    width: 60px;
+  }
+  .logout{
+    font-size: 8px;
+    float: left;
+    width: 60px;
+  }
+  .home{
+    font-size: 8px;
+    float: left;
+    width: 50px;
+  }
+  .logoContainer{
+    display: flex;
+    width: 150px;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 0 0 115px;
+  }
+}
+@media (max-width: 375px){
+  body{
+    background: black;
+  }
+  .logoholder{
+    height: 24px;
+  }
+  .logo{
+    height: 50px;
+  }
+  .navBar{
+    margin: 0 0 0 25px;
+  }
+}
+@media (max-width: 320px){
+  body{
+    background: black;
+  }
+  .navBar{
+    margin: 0 0 0 10px;
+  }
+  .logoholder{
+    height: 24px;
+    width: 100vw;
+  }
+  .logo{
+    height: 50px;
+  }
+  .myaccount{
+    width: 30px;
+  }
+  .lonboards{
+    width: 60px;
+  }
+  .home{
+    width: 60px;
+  }
+  .logout{
+    width: 50px;
+  }
+  .cart{
+    width: 10px;
+  }
+}
+
+  
+
+
+
+
